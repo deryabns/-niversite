@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+</head>
+<body>
+  <!--header alanı-->
+  <header>
+    <nav>
+        <a href="index.html"> <img src="logo.png" alt="" width="100"></a>
+   <div class="nav-links" id="navLinks">
+   <i class="bi bi-x" onclick="hideMenu"></i>
+ 
+   <ul>
+    <li><a href="#">Anasayfa</a></li>
+    <li><a href="#">Hakkimizda</a></li>
+    <li><a href="#">Kurslar</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">İletisim</a></li>
+   </ul>
+</div>
+<i class="bi bi-list"onclick="showMenu"></i>
+    </nav>
+  </header>
+  <!--Metin Kutucuğu-->
+  <div class="text-box">
+    <h1>Burasi Udemig Kolejidir Burada Sadece Hayaller Gerçek Olur</h1>
+    <p>"My experience at BİLGİ this semester has helped me to grow not only academically, but it has also helped me to clarify my personal goals..."My experience at BİLGİ this semester has helped me to grow not only academically, but it has also helped me to clarify my personal goals...""My experience at BİLGİ this semester has helped me to grow not only academically, but it has also helped me to clarify my personal goals...""My experience at BİLGİ this semester has helped me to grow not only academically, but it has also helped me to clarify my personal goals...""</p>
+    <a href="" class="hero-btn">Daha Fazlasi İçin Dokun</a>
+   </div>
+   <!--kurslar alani-->
+   <section class="course">
+    <h1>Burada Bizler Sizlere ÇokFarklı Seçenekler Sunuyoruz</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        Quas pariatur, veniam minus quasi vero assumenda beatae natus 
+        aborum dolor ex quam cupiditate voluptas labore repudiandae!
+        Distinctio unde doloribus hic a!</p>
+        <div class="row">
+          <div class="course col">
+            <h3>Başlangıç Düzey</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                 Adipisci inventore aliquam alias molestias autem accusantium 
+                 eaque perferendis esse excepturi atque?</p>
+          </div>
+          <div class="course col">
+            <h3>Orta Düzey</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Similique quasi beatae odit dolorem id nam iusto quae velit optio quas?</p>
+          </div>
+          <div class="course col">
+            <h3>ileri düzey</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                In maxime autem laboriosam porro et eum aliquid.
+                 Cum doloremque placeat reprehenderit?</p>
+          </div>
+
+        </div>
+  
+</section>
+
+
+   <!--java script alani-->
+   <script>
+    var navLinks = document.getElementById('navLinks')
+    function showMenu(){
+        navLinks.style.right = '0'
+     }
+     function hideMenu(){
+        navLinks.style.right="-200px"
+     }
+</script>
+
+</body>
+</html>
